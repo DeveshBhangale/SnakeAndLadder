@@ -43,7 +43,7 @@ public class SnakeAndLadder {
 				if(player1 < 0) {
 					player1 = 0;
 				}
-				System.out.println(roll + " " + optionPlay);
+//				System.out.println(roll + " " + optionPlay);
 				System.out.println("player1 Position "+player1);
 				positions.add(player1);
 			}
