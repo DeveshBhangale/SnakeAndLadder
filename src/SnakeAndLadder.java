@@ -18,12 +18,18 @@ public class SnakeAndLadder {
 //				System.out.println(roll);
 //				System.out.println(optionPlay);
 //				player1 = 100;
-				// Use Case - 3
+				// Use Case - 3 & 5
 				switch(optionPlay) {
 					
-				case 0: player1 += roll;
+				case 0: 
+					if((player1 + roll)<100) {
+						player1+=roll;
+					}
 				
-				case 1: player1 += roll*2;
+				case 1: 
+					if((player1 + (roll*2))<100) {
+						player1+=roll*2;
+					}
 				
 				case 2: player1 = player1;
 					
