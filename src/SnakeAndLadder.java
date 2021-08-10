@@ -16,12 +16,10 @@ public class SnakeAndLadder {
 			
 			if(player1 == 100) {
 				System.out.println("Player1 is the winner");
-				// System.out.println("Number of rolls required to win were "+ player1cnt);
 				break;
 			}
 			if(player2 == 100) {
 				System.out.println("Player2 is the winner");
-				// System.out.println("Number of rolls required to win were "+ player1cnt);
 				break;
 			}
 			else {
@@ -34,9 +32,6 @@ public class SnakeAndLadder {
 				int optionPlay2 = (int) Math.floor(Math.random()*(2-0+1)+0);
 				player1cnt += 1; 
 				
-//				System.out.println(roll);
-//				System.out.println(optionPlay);
-//				player1 = 100;
 				// Use Case - 3 & 5
 				// Switch case for player1
 				switch(optionPlay1) {
@@ -89,8 +84,6 @@ public class SnakeAndLadder {
 				if(player2 < 0) {
 					player2 = 0;
 				}
-//				System.out.println(roll + " " + optionPlay);
-//				System.out.println("player1 Position "+player1);
 				positions1.add(player1);
 				positions2.add(player2);
 			}
